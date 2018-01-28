@@ -8,13 +8,13 @@ The data has been analysed and different plotting have been created. The analysi
 
 ## Histogram and Scaterplot
 
-Histogram of current fleet
+bootstrapping of current fleet
 
-![logo](./histogram_current_fleet.png?raw=true)
+![logo](./bootstrap_oldffleet.png?raw=true)
 
-Histogram of proposed fleet
+Histobootstrapping of proposed fleet
 
-![logo](./histogram_proposed_fleet.png?raw=true)
+![logo](./bootstrap_newfleet.png?raw=true)
 
 Scaterplot
 
@@ -42,7 +42,10 @@ Standard deviation:
 Mean:
 - mean = 30.481012658227847
 
+6.40180546218
 
-
+6.06893054515
+Mean: 20.144578
+Var: 40.983113
 
 

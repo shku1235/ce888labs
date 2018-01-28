@@ -23,7 +23,7 @@ def boostrap(statistic_func, iterations, data):
     b = np.array(vals)
     # print b
     lower, upper = np.percentile(b, [2.5, 97.5])
-    # print lower, upper , data_mean
+    print lower, upper , data_mean
     return std, lower, upper
 
 
