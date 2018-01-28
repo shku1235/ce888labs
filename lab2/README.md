@@ -1,18 +1,36 @@
-# bootstrapping results
-## what is done
+# Bootstrapping results
 
-An analysis of a vehicle fleet replacement plan for a company is presented. The data is MPG of some of their cars and the potential replacements.
+## What is done
 
-The data has been analysed and different plotting have been created. The analysis includes standard deviation and bootstrapping.
+An investigation of a vehicle fleet substitution ready for an organization is displayed. The information for dataprogressing  is MPG of the cars tested by the company with some old cars and also the substitutioed new cars.The information has been broke down and distinctive plotting have been made. The results incorporates standard deviation and bootstrapping.
+
+## STD comparison via the boostrap
+
+### Old fleet
+
+Standard deviation:
+- std-mean = 6.40180546218
+
+Mean:
+- mean = 20.144578
+
+### New fleet
+
+Standard deviation:
+- std-mean = 6.06893054515
+
+Mean:
+- mean = 30.48101265
 
 
-## Histogram and Scaterplot
+
+## bootstrapping result graph and Scaterplot
 
 bootstrapping of current fleet
 
-![logo](./bootstrap_oldffleet.png?raw=true)
+![logo](./bootstrap_oldfleet.png?raw=true)
 
-Histobootstrapping of proposed fleet
+bootstrapping of proposed fleet
 
 ![logo](./bootstrap_newfleet.png?raw=true)
 
@@ -20,32 +38,6 @@ Scaterplot
 
 ![logo](./scaterplot.png?raw=true)
 
-## Standard deviation comparison via the boostrap
 
-### Current fleet
-
-Standard deviation:
-- upper = 6.950073968587861
-- std-mean = 6.401805462179708
-- lower = 5.808888915480925
-
-Mean:
-- mean = 20.14457831325301
-
-### Proposed fleet
-
-Standard deviation:
-- upper = 6.897914239562367
-- std-mean = 6.068930545150857
-- lower = 5.139403406065087
-
-Mean:
-- mean = 30.481012658227847
-
-6.40180546218
-
-6.06893054515
-Mean: 20.144578
-Var: 40.983113
 
 

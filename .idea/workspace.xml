@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ef4b63-574f-4e9a-ab92-be61c4c77eeb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/bootstrap_newfleet.pdf" afterPath="$PROJECT_DIR$/lab2/bootstrap_newfleet.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/bootstrap_oldfleet.pdf" afterPath="$PROJECT_DIR$/lab2/bootstrap_oldfleet.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/bootstrap_oldfleet.png" afterPath="$PROJECT_DIR$/lab2/bootstrap_oldfleet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/README.md" afterPath="$PROJECT_DIR$/lab2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/vehicles_bootstrapping.py" afterPath="$PROJECT_DIR$/lab2/vehicles_bootstrapping.py" />
     </list>
     <ignored path="ce888labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ce888labs$vehicles_bootstrapping.coverage" NAME="vehicles_bootstrapping Coverage Results" MODIFIED="1517161104890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
+    <SUITE FILE_PATH="coverage/ce888labs$vehicles_bootstrapping.coverage" NAME="vehicles_bootstrapping Coverage Results" MODIFIED="1517161891053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,17 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vehicles_bootstrapping.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vehicles_bootstrapping.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab2/vehicles_bootstrapping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="325">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salaries.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="salaries.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2/salaries.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-135">
@@ -427,18 +430,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/vehicles_bootstrapping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab2/salaries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/vehicles_bootstrapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
