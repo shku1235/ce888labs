@@ -10,15 +10,15 @@ The data has been analysed and different plotting have been created. The analysi
 
 Histogram of current fleet
 
-![logo](./Diagrams/histogram_current_fleet.png?raw=true)
+![logo](./histogram_current_fleet.png?raw=true)
 
 Histogram of proposed fleet
 
-![logo](./Diagrams/histogram_proposed_fleet.png?raw=true)
+![logo](./histogram_proposed_fleet.png?raw=true)
 
 Scaterplot
 
-![logo](./Diagrams/scaterplot.png?raw=true)
+![logo](./scaterplot.png?raw=true)
 
 ## Standard deviation comparison via the boostrap
 
