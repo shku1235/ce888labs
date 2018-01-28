@@ -37,9 +37,6 @@ Mean:
 
 ## bootstrapping result graph and Scaterplot
 
-bootstrapping of current fleet
-
-![logo](./bootstrap_oldfleet.png?raw=true)
 
 histogram of old fleet
 
