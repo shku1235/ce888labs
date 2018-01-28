@@ -28,7 +28,9 @@ def mad(arr):
 if __name__ == "__main__":
 	df = pd.read_csv('./vehicles.csv')
 	print((df.columns))
+	dftemp = df
 	df =df.dropna()
+
 	sns_plot = sns.lmplot(df.columns[0], df.columns[1], data=df, fit_reg=False)
 
 	sns_plot.axes[0,0].set_ylim(0,)
@@ -37,7 +39,7 @@ if __name__ == "__main__":
 	sns_plot.savefig("scaterplot.png",bbox_inches='tight')
 	sns_plot.savefig("scaterplot.pdf",bbox_inches='tight')
 
-	data = df.values.T[1]
+	data = dftemp.values.T[0]
 	
 	print((("Mean: %f")%(np.mean(data))))
 	print((("Median: %f")%(np.median(data))))
@@ -49,11 +51,31 @@ if __name__ == "__main__":
 	sns_plot2 = sns.distplot(data, bins=20, kde=False, rug=True).get_figure()
 
 	axes = plt.gca()
-	axes.set_xlabel('Millons of pounds in sales') 
-	axes.set_ylabel('Sales count')
+	axes.set_xlabel('MPG')
+	axes.set_ylabel('index')
 
-	sns_plot2.savefig("histogram.png",bbox_inches='tight')
-	sns_plot2.savefig("histogram.pdf",bbox_inches='tight')
+	sns_plot2.savefig("histogramold.png",bbox_inches='tight')
+	sns_plot2.savefig("histogramold.pdf",bbox_inches='tight')
+	data = dftemp.dropna().values.T[1]
+
+	print((("Mean: %f")%(np.mean(data))))
+	print((("Median: %f")%(np.median(data))))
+	print((("Var: %f")%(np.var(data))))
+	print((("std: %f")%(np.std(data))))
+	print((("MAD: %f")%(mad(data))))
+
+	plt.clf()
+	sns_plot2 = sns.distplot(data, bins=20, kde=False, rug=True).get_figure()
+
+	axes = plt.gca()
+	axes.set_xlabel('MPG')
+	axes.set_ylabel('index')
+
+	sns_plot2.savefig("histogramNew.png",bbox_inches='tight')
+	sns_plot2.savefig("histogramNew.pdf",bbox_inches='tight')
+
+
+
 
 
 	

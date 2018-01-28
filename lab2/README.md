@@ -14,6 +14,12 @@ Standard deviation:
 Mean:
 - mean = 20.144578
 
+-- Median: 15.000000
+-- Var: 17.391764
+-- std: 4.170343
+-- MAD: 2.000000
+
+
 ### New fleet
 
 Standard deviation:
@@ -21,6 +27,11 @@ Standard deviation:
 
 Mean:
 - mean = 30.48101265
+
+-- Median: 32.000000
+-- Var: 36.831918
+-- std: 6.068931
+-- MAD: 4.000000
 
 
 
@@ -30,9 +41,13 @@ bootstrapping of current fleet
 
 ![logo](./bootstrap_oldfleet.png?raw=true)
 
-bootstrapping of proposed fleet
+histogram of old fleet
 
-![logo](./bootstrap_newfleet.png?raw=true)
+![logo](./histogramold.png?raw=true)
+
+histogram of proposed fleet
+
+![logo](./histogramNew.png?raw=true)
 
 Scaterplot
 
