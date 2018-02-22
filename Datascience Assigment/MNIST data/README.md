@@ -1,21 +1,9 @@
-# Domain-Adversarial Training of Neural Networks in Tensorflow
-
-"[Unsupervised Domain Adaptation by Backpropagation](http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf)" introduced a simple and effective method for accomplishing domain adaptation with SGD with a gradient reversal layer. This work was elaborated and extended in "[Domain-Adversarial Training of Neural Networks](http://jmlr.org/papers/volume17/15-239/15-239.pdf)". For more information as well as a link to an equivalent implementation in Caffe, see http://sites.skoltech.ru/compvision/projects/grl/.
+# MNIST to MNIST-M
 
 The `Blobs-DANN.ipynb` shows some basic experiments on a very simple dataset. The `MNIST-DANN.ipynb` recreates the MNIST experiment from the papers on a synthetic dataset. Instructions to generate the synthetic dataset are below.
 
 Requires TensorFlow>=1.0 and tested with Python 2.7 and Python 3.4.
 
-## Gradient Reversal Layer
-
-The `flip_gradient` operation is implemented in Python by using `tf.gradient_override_map` to override the gradient of `tf.identity`. Refer to `flip_gradient.py` to see how this is implemented.
-
-```python
-from flip_gradient import flip_gradient
-
-# Flip the gradient of y w.r.t. x and scale by l (defaults to 1.0)
-y = flip_gradient(x, l)
-```
 
 ## MNIST Experiments
 
@@ -39,6 +27,3 @@ python create_mnistm.py
 This may take a couple minutes and should result in a `mnistm_data.pkl` file containing generated images.
 
 
-## Contribution
-
-It would be great to add other experiments to this repository. Feel free to make a PR if you decide to recreate other results from the papers or new experiments entirely.
